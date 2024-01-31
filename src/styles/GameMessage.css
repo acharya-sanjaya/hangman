@@ -1,0 +1,36 @@
+.replay-btn {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #66f;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
+.replay-btn:hover {
+    background-color: #44d;
+}
+
+.message {
+    text-align: center;
+}
+
+.game-message-container {
+    display: flex;
+    width: 95vw;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.greet-container {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%);
+}

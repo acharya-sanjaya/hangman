@@ -1,0 +1,19 @@
+.tiles-container {
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    user-select: none;
+}
+
+.game-tile {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    border-bottom: 5px solid #eee;
+}

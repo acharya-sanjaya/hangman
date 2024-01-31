@@ -1,0 +1,116 @@
+.hangingman-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.base {
+    left: 25px;
+    bottom: 10px;
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.v-stand-1 {
+    left: 70px;
+    bottom: 10px;
+    position: absolute;
+    width: 10px;
+    height: 270px;
+    background-color: #fff;
+}
+
+.h-stand {
+    left: 70px;
+    top: 10px;
+    position: absolute;
+    width: 105px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.v-stand-2 {
+    position: absolute;
+    top: 10px;
+    left: 175px;
+    width: 10px;
+    height: 45px;
+    background-color: #fff;
+}
+
+.hangman-head {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+.hangman-body {
+    position: absolute;
+    left: 175px;
+    top: 100px;
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.hangman-left-arm {
+    position: absolute;
+    left: 115px;
+    top: 140px;
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(-30deg);
+}
+
+.hangman-right-arm {
+    position: absolute;
+    left: 175px;
+    top: 140px;
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(30deg);
+}
+
+.hangman-left-leg {
+    position: absolute;
+    left: 128px;
+    top: 222px;
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(-60deg);
+}
+
+.hangman-right-leg {
+    position: absolute;
+    left: 163px;
+    top: 222px;
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(60deg);
+}
+
+.hangman-head,
+.hangman-body,
+.hangman-left-arm,
+.hangman-right-arm,
+.hangman-left-leg,
+.hangman-right-leg {
+    display: block;
+}
